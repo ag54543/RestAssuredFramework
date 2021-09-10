@@ -1,0 +1,57 @@
+2021-09-10 13:25:50,794 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://gorest.co.in:443
+2021-09-10 13:25:50,870 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to gorest.co.in:443
+2021-09-10 13:25:51,610 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2021-09-10 13:25:51,613 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2021-09-10 13:25:51,613 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2021-09-10 13:25:51,615 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2021-09-10 13:25:51,616 DEBUG [main] DefaultClientConnection:274 - Sending request: DELETE /public/v1/users/997 HTTP/1.1
+2021-09-10 13:25:51,617 DEBUG [main] wire:73 -  >> "DELETE /public/v1/users/997 HTTP/1.1[\r][\n]"
+2021-09-10 13:25:51,619 DEBUG [main] wire:73 -  >> "Authorization: Bearer bce84d2cb0a1648c89d4c7a7029006f77f5394946780778cdb9f854734cba957[\r][\n]"
+2021-09-10 13:25:51,619 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2021-09-10 13:25:51,620 DEBUG [main] wire:73 -  >> "Host: gorest.co.in[\r][\n]"
+2021-09-10 13:25:51,620 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2021-09-10 13:25:51,620 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_65)[\r][\n]"
+2021-09-10 13:25:51,621 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-09-10 13:25:51,621 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2021-09-10 13:25:51,622 DEBUG [main] headers:278 - >> DELETE /public/v1/users/997 HTTP/1.1
+2021-09-10 13:25:51,623 DEBUG [main] headers:281 - >> Authorization: Bearer bce84d2cb0a1648c89d4c7a7029006f77f5394946780778cdb9f854734cba957
+2021-09-10 13:25:51,623 DEBUG [main] headers:281 - >> Accept: */*
+2021-09-10 13:25:51,624 DEBUG [main] headers:281 - >> Host: gorest.co.in
+2021-09-10 13:25:51,624 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2021-09-10 13:25:51,625 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_65)
+2021-09-10 13:25:51,625 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2021-09-10 13:25:51,750 DEBUG [main] wire:73 -  << "HTTP/1.1 204 No Content[\r][\n]"
+2021-09-10 13:25:51,751 DEBUG [main] wire:73 -  << "Server: nginx[\r][\n]"
+2021-09-10 13:25:51,752 DEBUG [main] wire:73 -  << "Date: Fri, 10 Sep 2021 07:55:51 GMT[\r][\n]"
+2021-09-10 13:25:51,752 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+2021-09-10 13:25:51,753 DEBUG [main] wire:73 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2021-09-10 13:25:51,753 DEBUG [main] wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2021-09-10 13:25:51,754 DEBUG [main] wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-09-10 13:25:51,754 DEBUG [main] wire:73 -  << "X-Download-Options: noopen[\r][\n]"
+2021-09-10 13:25:51,754 DEBUG [main] wire:73 -  << "X-Permitted-Cross-Domain-Policies: none[\r][\n]"
+2021-09-10 13:25:51,755 DEBUG [main] wire:73 -  << "Referrer-Policy: strict-origin-when-cross-origin[\r][\n]"
+2021-09-10 13:25:51,756 DEBUG [main] wire:73 -  << "Cache-Control: no-cache[\r][\n]"
+2021-09-10 13:25:51,756 DEBUG [main] wire:73 -  << "X-Request-Id: e0493928-dd54-448d-bfbd-066a471e8fc3[\r][\n]"
+2021-09-10 13:25:51,757 DEBUG [main] wire:73 -  << "X-Runtime: 0.017780[\r][\n]"
+2021-09-10 13:25:51,757 DEBUG [main] wire:73 -  << "Strict-Transport-Security: max-age=63072000; includeSubDomains[\r][\n]"
+2021-09-10 13:25:51,758 DEBUG [main] wire:73 -  << "Vary: Origin[\r][\n]"
+2021-09-10 13:25:51,758 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-09-10 13:25:51,760 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 204 No Content
+2021-09-10 13:25:51,760 DEBUG [main] headers:262 - << HTTP/1.1 204 No Content
+2021-09-10 13:25:51,761 DEBUG [main] headers:265 - << Server: nginx
+2021-09-10 13:25:51,761 DEBUG [main] headers:265 - << Date: Fri, 10 Sep 2021 07:55:51 GMT
+2021-09-10 13:25:51,762 DEBUG [main] headers:265 - << Connection: keep-alive
+2021-09-10 13:25:51,762 DEBUG [main] headers:265 - << X-Frame-Options: SAMEORIGIN
+2021-09-10 13:25:51,763 DEBUG [main] headers:265 - << X-XSS-Protection: 1; mode=block
+2021-09-10 13:25:51,763 DEBUG [main] headers:265 - << X-Content-Type-Options: nosniff
+2021-09-10 13:25:51,764 DEBUG [main] headers:265 - << X-Download-Options: noopen
+2021-09-10 13:25:51,764 DEBUG [main] headers:265 - << X-Permitted-Cross-Domain-Policies: none
+2021-09-10 13:25:51,765 DEBUG [main] headers:265 - << Referrer-Policy: strict-origin-when-cross-origin
+2021-09-10 13:25:51,765 DEBUG [main] headers:265 - << Cache-Control: no-cache
+2021-09-10 13:25:51,765 DEBUG [main] headers:265 - << X-Request-Id: e0493928-dd54-448d-bfbd-066a471e8fc3
+2021-09-10 13:25:51,766 DEBUG [main] headers:265 - << X-Runtime: 0.017780
+2021-09-10 13:25:51,766 DEBUG [main] headers:265 - << Strict-Transport-Security: max-age=63072000; includeSubDomains
+2021-09-10 13:25:51,767 DEBUG [main] headers:265 - << Vary: Origin
+2021-09-10 13:25:51,771 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2021-09-10 13:25:51,772 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@19fe4644
+2021-09-10 13:25:51,773 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely

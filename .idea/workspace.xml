@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e94e1417-a814-4cb6-81d4-c7583aaf577d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1xuLuCY87EVeUFrhKYKB8cX8zIW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunManager" selected="TestNG.DeleteAPITest.deleteAPI">
+    <configuration name="DeleteAPITest.deleteAPI" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.api" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.api.DeleteAPITest" />
+      <option name="METHOD_NAME" value="deleteAPI" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetAPITest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.api" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.api.GetAPITest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetAPITest.getUserAPITwo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.api" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.api.GetAPITest" />
+      <option name="METHOD_NAME" value="getUserAPITwo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostAPITest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.api" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.api.PostAPITest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostAPITest.testTwo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.api" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.api.PostAPITest" />
+      <option name="METHOD_NAME" value="testTwo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.DeleteAPITest.deleteAPI" />
+        <item itemvalue="TestNG.PostAPITest.testTwo" />
+        <item itemvalue="TestNG.PostAPITest.test" />
+        <item itemvalue="TestNG.GetAPITest.getUserAPITwo" />
+        <item itemvalue="TestNG.GetAPITest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e94e1417-a814-4cb6-81d4-c7583aaf577d" name="Default Changelist" comment="" />
+      <created>1631200246069</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631200246069</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="389" y="134" key="#Log_Highlighting_(ideolog)" timestamp="1631253946182">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="134" key="#Log_Highlighting_(ideolog)/0.0.1366.728@0.0.1366.728" timestamp="1631253946182" />
+    <state width="1322" height="317" key="GridCell.Tab.0.bottom" timestamp="1631260545593">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="317" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631260545593" />
+    <state width="1322" height="317" key="GridCell.Tab.0.center" timestamp="1631260545593">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="317" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631260545593" />
+    <state width="1322" height="317" key="GridCell.Tab.0.left" timestamp="1631260545593">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="317" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631260545593" />
+    <state width="1322" height="317" key="GridCell.Tab.0.right" timestamp="1631260545593">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="317" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631260545593" />
+  </component>
+  <component name="hg4idea.settings">
+    <option name="CHECK_INCOMING_OUTGOING" value="true" />
+    <option name="RECENT_HG_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+</project>
