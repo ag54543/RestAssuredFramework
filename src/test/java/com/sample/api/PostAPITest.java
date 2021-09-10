@@ -23,7 +23,7 @@ Logger log = Logger.getLogger(String.valueOf(PostAPITest.class));
                 .relaxedHTTPSValidation()
                 .header("Content-Type","application/json")
                 .and()
-                .header("Authorization", "Bearer bce84d2cb0a1648c89d4c7a7029006f77f5394946780778cdb9f854734cba957")
+                .header("Authorization", "")
                 .and()
                 .body("{\"name\":\"Tenali Ramakrishna\", \"gender\":\"male\", \"email\":\"ashishone123.ramakrishna@15ce.com\", \"status\":\"active\"}")
                 .when()
@@ -44,7 +44,7 @@ Logger log = Logger.getLogger(String.valueOf(PostAPITest.class));
         jsonObject.put("email",randomStr+"@15ce.com");
         RequestSpecification requestSpecification =
                 given().header("Content-Type","application/json")
-                .and().header("Authorization", "Bearer bce84d2cb0a1648c89d4c7a7029006f77f5394946780778cdb9f854734cba957")
+                .and().header("Authorization", "")
                 .and()
                 .body(jsonObject.toString());
         Response response =  requestSpecification.relaxedHTTPSValidation().post("https://gorest.co.in/public/v1/users");
