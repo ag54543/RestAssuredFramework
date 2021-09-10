@@ -8,7 +8,7 @@ public class DeleteAPITest {
     @Test
     public void deleteAPI(){
         given().relaxedHTTPSValidation()
-                .header("Authorization", "Bearer bce84d2cb0a1648c89d4c7a7029006f77f5394946780778cdb9f854734cba957")
+                .header("Authorization", "")
                 .when()
                 .delete("https://gorest.co.in/public/v1/users/997")
                 .then()
